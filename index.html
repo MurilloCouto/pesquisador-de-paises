@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pesquisador de Países</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  </head>
+  <body class="bg-dark text-white">
+    <nav class="navbar bg-dark">
+        <div>
+          <a class="navbar-brand" href="#">
+            <img class="m-3" src="/logodnc.svg" alt="LogoDNC" width="100" >
+          </a>
+        </div>
+      </nav>
+      <h1 class="text-center">Pesquisa de Países</h1>
+      <!--botao-->
+      <div class="container input-group mb-3">
+        <input id="name" type="text" class="form-control" placeholder="Nome do país (em inglês)" aria-label="Recipient's username" aria-describedby="button-addon2">
+        <button onclick="Pesquisar()" class="bg-primary text-white btn btn-outline-secondary" type="button" id="button-addon2"> <strong>Pesquisar</strong> </button>
+      </div>
+      <!--card-->
+      <div id="card" class="container text-center text.dark p-3 card" style="width: 18rem;">
+        <img id="bandeira" src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-dark" id="nome">PAÍS</h5>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item"><strong>Capital:</strong> <p id="capital">capital</p></li>
+          <li class="list-group-item"><strong>Continente:</strong> <p id="continente">continente</p></li>
+          <li class="list-group-item"><strong>População:</strong> <p id="populacao">population</p></li>
+        </ul>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
