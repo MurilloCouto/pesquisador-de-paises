@@ -19,7 +19,7 @@ Site para busca de informações de um país utilizando uma API.
 <hr>
 
 ### Está online? 📡
-SIM! Basta [clicar aqui](----link netlify----) para visualizar o site que está hospedado nos servidores da Netlify.
+SIM! Basta [clicar aqui](https://busca-pais-dnc.netlify.app/) para visualizar o site que está hospedado nos servidores da Netlify.
 <hr>
 
 by Murillo Couto<br>
