@@ -9,7 +9,7 @@
 </div>
 
 ### O que é? 🤔
-Site para busca de informações de um país utilizando uma API.
+Site para busca de informações de um país consumindo uma API.
 <hr>
 
 ### Quais tecnologias foram usadas? 💻
