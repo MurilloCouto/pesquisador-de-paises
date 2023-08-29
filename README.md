@@ -5,7 +5,7 @@
 </div>
 
 <div align="center">
-	<h1>Site para busca de informações de sobre um país</h1>
+	<h1>Site para busca de informações sobre um país</h1>
 </div>
 
 ### O que é? 🤔
